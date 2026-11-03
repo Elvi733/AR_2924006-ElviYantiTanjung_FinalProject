@@ -1,1 +1,49 @@
-Alasan saya memilih foto ini menjadi marker adalah karena lebih lucukkkk ><
+==================================================
+LAPORAN EVALUASI KANDIDAT MARKER
+MATA KULIAH AUGMENTED REALITY (PERTEMUAN 10)
+==================================================
+
+Nama Mahasiswa : Elvi Yanti Tanjung
+
+NIM            : 2924006
+
+Program Studi  : Informatika
+
+--------------------------------------------------
+1. KANDIDAT MARKER
+--------------------------------------------------
+
+- Kandidat 1 (Marker Final) : marker_utama.jpg
+- Kandidat 2                : marker_pembanding.jpg
+
+--------------------------------------------------
+2. PERBANDINGAN KARAKTERISTIK VISUAL
+--------------------------------------------------
+
+[Aspek Evaluasi]
+
+1. Distribusi Kontras & Gradien Cahaya
+   - Kandidat 1 (marker_utama.jpg)    : Memiliki gradasi transisi gelap-terang yang dinamis dan tegas di berbagai sisi
+   - Kandidat 2 (marker_pembanding.jpg) : Intensitas warna cenderung monoton dan minim variasi kontras
+
+2. Kompleksitas & Sebaran Feature Points
+   - Kandidat 1 (marker_utama.jpg)    : Kaya akan titik sudut tajam dan tekstur acak yang mudah dideteksi algoritma ORB/SURF
+   - Kandidat 2 (marker_pembanding.jpg) : Titik fitur terlalu sedikit karena didominasi bidang datar yang kosong
+
+3. Asimetri & Orientasi Objek
+   - Kandidat 1 (marker_utama.jpg)    : Pola sepenuhnya asimetris sehingga orientasi arah kamera dapat terbaca secara presisi
+   - Kandidat 2 (marker_pembanding.jpg) : Memiliki bentuk semi-simetris yang berisiko mengecoh sudut pandang tracking
+
+4. Tingkat Noise & Pola Berulang
+   - Kandidat 1 (marker_utama.jpg)    : Bersih dari pola repetitif atau elemen berulang yang memicu ambiguitas
+   - Kandidat 2 (marker_pembanding.jpg) : Terdapat elemen garis berulang yang mirip pada bagian tepi
+
+5. Kejernihan Resolusi
+   - Kandidat 1 (marker_utama.jpg)    : Gambar sangat tajam, bebas artefak kompresi, dan detail terjaga optimal
+   - Kandidat 2 (marker_pembanding.jpg) : Ketajaman gambar biasa saja dan agak kabur pada area tepi
+
+--------------------------------------------------
+3. ALASAN PEMILIHAN MARKER FINAL
+--------------------------------------------------
+
+Saya memilih Kandidat 1 (marker_utama.jpg) sebagai marker final karena struktur visualnya memenuhi standar optimal untuk sistem *image tracking* berbasis AR Foundation. Sebaran titik fitur (*feature points*) yang padat serta tingkat kontras yang tinggi memungkinkan kamera mendeteksi dan menginisialisasi objek 3D secara instan. Selain itu, desain yang sepenuhnya asimetris dan bebas dari pola berulang mampu menjaga kestabilan posisi objek virtual agar tidak bergeser (*jitter*) saat diuji secara langsung di perangkat mobile.
